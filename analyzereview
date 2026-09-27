@@ -1,0 +1,4 @@
+$ curl -s "http://localhost:5050/analyze/Fantastic%20services" | python -m json.tool
+{
+    "sentiment": "positive"
+}

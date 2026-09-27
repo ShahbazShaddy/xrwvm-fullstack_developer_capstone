@@ -1,0 +1,43 @@
+$ curl -s http://localhost:3030/fetchDealers | python -c "import json,sys; print(json.dumps(json.load(sys.stdin)[:3], indent=4))"
+# Output trimmed to the first 3 of 50 dealers returned.
+[
+    {
+        "_id": "6ab87a5ab736df79956b2e08",
+        "id": 1,
+        "city": "El Paso",
+        "state": "Texas",
+        "address": "3 Nova Court",
+        "zip": "88563",
+        "lat": "31.6948",
+        "long": "-106.3",
+        "short_name": "Holdlamis",
+        "full_name": "Holdlamis Car Dealership",
+        "__v": 0
+    },
+    {
+        "_id": "6ab87a5ab736df79956b2e09",
+        "id": 2,
+        "city": "Minneapolis",
+        "state": "Minnesota",
+        "address": "6337 Butternut Crossing",
+        "zip": "55402",
+        "lat": "44.9762",
+        "long": "-93.2759",
+        "short_name": "Temp",
+        "full_name": "Temp Car Dealership",
+        "__v": 0
+    },
+    {
+        "_id": "6ab87a5ab736df79956b2e0a",
+        "id": 3,
+        "city": "Birmingham",
+        "state": "Alabama",
+        "address": "9477 Twin Pines Center",
+        "zip": "35285",
+        "lat": "33.5446",
+        "long": "-86.9292",
+        "short_name": "Sub-Ex",
+        "full_name": "Sub-Ex Car Dealership",
+        "__v": 0
+    }
+]

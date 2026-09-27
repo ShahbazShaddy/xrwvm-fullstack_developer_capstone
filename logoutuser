@@ -1,0 +1,4 @@
+$ curl -s http://localhost:8000/djangoapp/logout | python -m json.tool
+{
+    "userName": ""
+}

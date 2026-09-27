@@ -127,3 +127,11 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Project additions
+*.env
+djangoenv/
+node_modules/
+server/static/
+server/frontend/build/
+npm-debug.log*

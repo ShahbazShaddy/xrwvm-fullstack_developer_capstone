@@ -1,0 +1,16 @@
+$ cd server && venv/Scripts/python manage.py runserver 8000
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+September 26, 2026 - 21:57:53
+Django version 5.2.17, using settings 'djangoproj.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+
+WARNING: This is a development server. Do not use it in a production setting. Use a production WSGI or ASGI server instead.
+For more information on production servers see: https://docs.djangoproject.com/en/5.2/howto/deployment/
+[26/Sep/2026 21:58:18] "GET / HTTP/1.1" 200 3103
+[26/Sep/2026 21:58:18] "GET / HTTP/1.1" 200 3103
+[26/Sep/2026 21:58:19] "GET /about/ HTTP/1.1" 200 4060
+[26/Sep/2026 21:58:19] "GET /contact/ HTTP/1.1" 200 2957

@@ -1,0 +1,16 @@
+$ curl -s http://localhost:3030/fetchReviews/dealer/29 | python -m json.tool
+[
+    {
+        "_id": "6ab87a5ab736df79956b2e3d",
+        "id": 3,
+        "name": "Lion Reames",
+        "dealership": 29,
+        "review": "Expanded global groupware",
+        "purchase": true,
+        "purchase_date": "10/20/2020",
+        "car_make": "Mazda",
+        "car_model": "MX-5",
+        "car_year": 2003,
+        "__v": 0
+    }
+]
