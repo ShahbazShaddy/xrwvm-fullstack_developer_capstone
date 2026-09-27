@@ -1,0 +1,28 @@
+# Source: GitHub REST API https://api.github.com/repos/ShahbazShaddy/xrwvm-fullstack_developer_capstone/actions/runs/36287649381 (+ /jobs); gh CLI not authenticated
+Workflow: Lint Code
+Run: #1 (id 36287649381)
+Trigger: push on main @ 14963a6
+Status: completed
+Conclusion: success
+URL: https://github.com/ShahbazShaddy/xrwvm-fullstack_developer_capstone/actions/runs/36287649381
+
+Job: Lint Python Files -> success
+  [success] Set up job
+  [success] Checkout Repository
+  [success] Set up Python
+  [success] Install dependencies
+  [success] Run Linter
+  [success] Post Set up Python
+  [success] Post Checkout Repository
+  [success] Complete job
+
+Job: Lint JavaScript Files -> success
+  [success] Set up job
+  [success] Checkout Repository
+  [success] Install Node.js
+  [success] Install JSHint
+  [success] Run Linter
+  [success] Post Install Node.js
+  [success] Post Checkout Repository
+  [success] Complete job
+
